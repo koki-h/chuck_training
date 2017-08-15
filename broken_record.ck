@@ -1,6 +1,6 @@
 // originated by sndbuff.ck
 // sound file
-me.dir() + "mospeada.wav" => string filename;
+me.dir() + "data/mospeada.wav" => string filename;
 if( me.args() ) me.arg(0) => filename;
 
 // the patch 
