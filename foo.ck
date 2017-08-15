@@ -1,4 +1,3 @@
 SinOsc s => dac;
-while( true ) {
-	4::second => now;
-}
+2000.0 => s.freq;
+1::second => now;
